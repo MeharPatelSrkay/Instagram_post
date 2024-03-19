@@ -1,0 +1,14 @@
+<div>
+    <input type="text" name="name" (keyup)="getName($event)" />
+    <input type="text" name="age" (keyup)="getAge($event)" />
+    <input type="text" name="dept" (keyup)="getDept($event)" />
+
+    <button (click)="printVal()">Click Me!!</button>
+    <br>
+    {{MyName}}
+    <br>
+    {{MyAge}}
+    <br>
+    {{MyDept}}
+
+</div>

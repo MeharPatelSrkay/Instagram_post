@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import data from '../assets/data/instagram_json.json'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  
   title = 'new-app';
+  data = data;
 }
