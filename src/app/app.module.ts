@@ -9,7 +9,6 @@ import { ImageDataComponent } from './instagram/image-data/image-data.component'
 import { SearchUserComponent } from './instagram/search-user/search-user.component';
 import { FilterpipePipe } from './filterpipe.pipe';
 import { FormsModule } from '@angular/forms';
-import { Ng2SearchPipe, Ng2SearchPipeModule } from 'ng2-search-filter';
 // import { addIcons } from 'ionicons'
 
 @NgModule({
@@ -19,14 +18,12 @@ import { Ng2SearchPipe, Ng2SearchPipeModule } from 'ng2-search-filter';
     ImageComponent,
     ImageDataComponent,
     SearchUserComponent,
-    Ng2SearchPipeModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     FilterpipePipe,
-    Ng2SearchPipe
   ],
   providers: [
     provideClientHydration()
